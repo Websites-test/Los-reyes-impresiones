@@ -242,3 +242,83 @@ $(document).ready(function(){
     }
   });
 });
+
+
+/*Cambio imagenes slider productos*/
+
+
+$(document).ready(function(){
+	$('.imagen-portafolio').click(function(){
+        var dataImagen = $(this).attr("data-slide-to");
+        
+        for (var i = dataImagen.length - 1; i >= 0; i--) {
+        	var position = dataImagen[i];
+
+        	if(position == "0"){
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/10.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/11.jpg" alt="item3"/>');
+        	
+        	}else if (position == "1") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/3.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/8.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/5.jpg" alt="item3"/>');
+        	
+        	}else if (position == "2") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/15.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/16.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/17.jpg" alt="item3"/>');
+        	
+        	}else if (position == "3") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/11.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/12.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/13.jpg" alt="item3"/>');
+        	
+        	}else if (position == "4") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "5") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "6") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "7") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "8") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "9") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "10") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	
+        	}else if (position == "11") {
+        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
+        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
+        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+        	}
+        }
+    });
+    $("#close").click(function(){
+		$('.imagen-dinamica-1 img').remove();
+		$('.imagen-dinamica-2 img').remove();
+		$('.imagen-dinamica-3 img').remove();
+    })
+});
