@@ -250,72 +250,118 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.imagen-portafolio').click(function(){
         var dataImagen = $(this).attr("data-slide-to");
-        
-        for (var i = dataImagen.length - 1; i >= 0; i--) {
-        	var position = dataImagen[i];
+        	
+        	for (var i = dataImagen.length - 1; i >= 0; i--) {
+        		var position = dataImagen[i];
 
-        	if(position == "0"){
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/10.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/11.jpg" alt="item3"/>');
-        	
-        	}else if (position == "1") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/3.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/8.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/5.jpg" alt="item3"/>');
-        	
-        	}else if (position == "2") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/15.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/16.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/17.jpg" alt="item3"/>');
-        	
-        	}else if (position == "3") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/11.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/12.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/13.jpg" alt="item3"/>');
-        	
-        	}else if (position == "4") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "5") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "6") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "7") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "8") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "9") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "10") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
-        	
-        	}else if (position == "11") {
-        		$('.imagen-dinamica-1').prepend('<img  src="images/productos-demo/2.jpg" alt="item1"/>');
-        		$('.imagen-dinamica-2').prepend('<img  src="images/productos-demo/3.jpg" alt="item2"/>');
-        		$('.imagen-dinamica-3').prepend('<img  src="images/productos-demo/10.jpg" alt="item3"/>');
+       			while(position < 12){
+
+       				switch (position) {
+        			
+	        			case "0":
+	        				var div = 0;
+
+	        				while (div < 2) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/afiche-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+	        			case "1":
+	        				var div = 0;
+
+	        				while (div < 8) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/catalogo-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+	        			
+	        			case "2":
+	        				var div = 0;
+
+	        				while (div < 1) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/empresa-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+
+	        				case "3":
+	        				var div = 0;
+
+	        				while (div < 3) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/etiqueta-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+
+	        				case "4":
+	        				var div = 0;
+
+	        				while (div < 5) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/folder-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+
+	        				case "5":
+	        				var div = 0;
+
+	        				while (div < 1) {
+								var wrapper = $(".carousel-inner");
+								var item = $("<div></div>");
+								item.addClass('item text-center imagen-dinamica-' + div);
+								var imagen = $("<img/>");
+								imagen.attr("src",("images/productos-demo/pop-" + div + ".png"));
+								item.append(imagen);
+								wrapper.append(item);
+								$(".carousel-inner .item:first").addClass('active');
+								div++;
+	        				}
+	        				break;
+        			}
+
+        			position++;
+       			}
+
+
         	}
-        }
-    });
+
+    	});
+
     $("#close").click(function(){
 		$('.imagen-dinamica-1 img').remove();
 		$('.imagen-dinamica-2 img').remove();
