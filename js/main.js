@@ -249,122 +249,150 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.imagen-portafolio').click(function(){
-        var dataImagen = $(this).attr("data-slide-to");
-        	
-        	for (var i = dataImagen.length - 1; i >= 0; i--) {
-        		var position = dataImagen[i];
+        var categoriaImagen = $(this).attr("id");
+        
+        switch (categoriaImagen) {
+        	case "afiches":
+        		var div = 0;
 
-       			while(position < 12){
+				while (div < 2) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/afiche-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+        	break;
+        	case "catalogos":
+				var div = 0;
 
-       				switch (position) {
-        			
-	        			case "0":
-	        				var div = 0;
+				while (div < 8) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/catalogo-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
+			case "empresas":
+				var div = 0;
 
-	        				while (div < 2) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/afiche-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
-	        			case "1":
-	        				var div = 0;
+				while (div < 1) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/empresa-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
+    		case "etiquetas":
+				var div = 0;
 
-	        				while (div < 8) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/catalogo-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
-	        			
-	        			case "2":
-	        				var div = 0;
+				while (div < 3) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/etiqueta-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
 
-	        				while (div < 1) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/empresa-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
+    		case "carpetas":
+	    				var div = 0;
 
-	        				case "3":
-	        				var div = 0;
+	    				while (div < 5) {
+							var wrapper = $(".carousel-inner");
+							var item = $("<div></div>");
+							item.addClass('item text-center imagen-dinamica-' + div);
+							var imagen = $("<img/>");
+							imagen.attr("src",("images/productos-demo/folder-" + div + ".png"));
+							item.append(imagen);
+							wrapper.append(item);
+							$(".carousel-inner .item:first").addClass('active');
+							div++;
+	    				}
+	    	break;
 
-	        				while (div < 3) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/etiqueta-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
+	    	case "pop":
+				var div = 0;
 
-	        				case "4":
-	        				var div = 0;
+				while (div < 1) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/pop-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
+			case "promociones":
+				var div = 0;
 
-	        				while (div < 5) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/folder-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
+				while (div < 6) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/promocional-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
+			case "volantes":
+				var div = 0;
 
-	        				case "5":
-	        				var div = 0;
-
-	        				while (div < 1) {
-								var wrapper = $(".carousel-inner");
-								var item = $("<div></div>");
-								item.addClass('item text-center imagen-dinamica-' + div);
-								var imagen = $("<img/>");
-								imagen.attr("src",("images/productos-demo/pop-" + div + ".png"));
-								item.append(imagen);
-								wrapper.append(item);
-								$(".carousel-inner .item:first").addClass('active');
-								div++;
-	        				}
-	        				break;
-        			}
-
-        			position++;
-       			}
+				while (div < 1) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/volante-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					div++;
+				}
+			break;
 
 
-        	}
 
-    	});
+        	default:
+        		var wrapper = $(".carousel-inner");
+				var item = $("<div></div>");
+				item.addClass('item text-center imagen-dinamica');
+				var imagen = $("<img/>");
+				imagen.attr("src",("images/productos-demo/banner.jpg"));
+				item.append(imagen);
+				wrapper.append(item);
+				$(".carousel-inner .item:first").addClass('active');
+        	break;
+        }
+    	
+    });
 
-    $("#close").click(function(){
-		$('.imagen-dinamica-1 img').remove();
-		$('.imagen-dinamica-2 img').remove();
-		$('.imagen-dinamica-3 img').remove();
-    })
+	$("#close").click(function(event) {
+		$(".carousel-inner .item").remove();
+	});
 });
+
