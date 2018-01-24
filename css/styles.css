@@ -242,8 +242,30 @@ footer a{
   width: 100%;
 }
 
-button.close{
+button.close,
+button.close:hover,
+button.close:focus{
   opacity: 1;
   position: absolute;
-    left: 50%;
+  right: 25px;
+  top: 30px;
+  color:  #113b5f;
+  outline: 0;
+}
+
+.in{
+  padding-right: 0!important;
+}
+
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before{
+  color:  #113b5f;
+}
+
+.carousel-control{
+  opacity: 1;
+}
+
+.carousel-indicators .active{
+    background-color: #113b5f;
 }
