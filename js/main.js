@@ -264,6 +264,19 @@ $(document).ready(function(){
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
+
+					var indicator =  $(".carousel-indicators");
+					var listIndicator = $("<li></li>");
+					listIndicator.attr('data-target',"#lightbox");
+					listIndicator.attr({
+						"data-target": '#lightbox',
+						"data-slide-to": div
+					});
+					indicator.append(listIndicator);
+					
+
+
+
 					div++;
 				}
         	break;
@@ -391,8 +404,10 @@ $(document).ready(function(){
     	
     });
 
-	$("#close").click(function(event) {
+	$("#close").click(function() {
 		$(".carousel-inner .item").remove();
+		 $(".carousel-indicators li").remove();
 	});
+
 });
 
