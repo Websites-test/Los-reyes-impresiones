@@ -244,6 +244,61 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function($) {
+	$('.container-fluid .navbar a').click(function(){ 
+
+    	var $target = $($(this).data('target')); 
+
+    	if(!$target.hasClass('in'))
+
+        	$('.container-fluid .in').removeClass('in').height(0);
+
+	});
+	// Navigation Scroll
+		(function($){
+		    $.fn.scrollingTo = function( opts ) {
+		        var defaults = {
+		            animationTime : 1000,
+		            easing : '',
+		            callbackBeforeTransition : function(){},
+		            callbackAfterTransition : function(){}
+		        };
+
+		        var config = $.extend( {}, defaults, opts );
+
+		        $(this).click(function(e){
+		            var eventVal = e;
+		            e.preventDefault();
+
+		            var $section = $(document).find( $(this).data('section') );
+		            if ( $section.length < 1 ) {
+		                return false;
+		            };
+
+		            if ( $('html, body').is(':animated') ) {
+		                $('html, body').stop( true, true );
+		            };
+
+		            var scrollPos = $section.offset().top;
+
+		            if ( $(window).scrollTop() == scrollPos ) {
+		                return false;
+		            };
+
+		            config.callbackBeforeTransition(eventVal, $section);
+
+		            $('html, body').animate({
+		                'scrollTop' : (scrollPos+'px' )
+		            }, config.animationTime, config.easing, function(){
+		                config.callbackAfterTransition(eventVal, $section);
+		            });
+		        });
+		    };
+		}(jQuery));
+});
+
+
+
 /*Cambio imagenes slider productos*/
 
 
@@ -474,16 +529,6 @@ $(document).ready(function(){
 	$("#close").click(function() {
 		$(".carousel-inner .item").remove();
 		 $(".carousel-indicators li").remove();
-	});
-
-	$('.container.navbar a').click(function(){ 
-
-    	var $target = $($(this).data('target')); 
-
-    	if(!$target.hasClass('in'))
-
-        	$('.container.in').removeClass('in').height(0);
-
 	});
 
 });

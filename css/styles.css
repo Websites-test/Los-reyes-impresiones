@@ -214,6 +214,9 @@ footer a{
 	.fh5co-bg-section{
 		padding:  0!important;
 	}
+	.navbar-nav{
+		margin:  0;
+	}
 }
 
 @media (max-width: 550px) {
