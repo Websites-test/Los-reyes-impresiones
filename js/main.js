@@ -279,7 +279,6 @@ $(document).ready(function(){
         	break;
         	case "catalogos":
 				var div = 0;
-
 				while (div < 8) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
@@ -304,7 +303,6 @@ $(document).ready(function(){
 			break;
 			case "empresas":
 				var div = 0;
-
 				while (div < 1) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
@@ -329,7 +327,6 @@ $(document).ready(function(){
 			break;
     		case "etiquetas":
 				var div = 0;
-
 				while (div < 3) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
@@ -454,9 +451,6 @@ $(document).ready(function(){
 					div++;
 				}
 			break;
-
-
-
         	default:
         		var wrapper = $(".carousel-inner");
 				var item = $("<div></div>");
