@@ -34,6 +34,7 @@
 
 .fh5co-feature-text p{
 	font-size: 14px;
+	text-align: justify;
 }
 
 /*----------------------------- 
@@ -88,6 +89,7 @@
     top: 0;
     height: 100%;
     padding: 3em 0;
+    width: 100%;
 } 
 
 .parallax-introduction h2{
