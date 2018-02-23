@@ -12,7 +12,6 @@
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-
   <!-- 
 	//////////////////////////////////////////////////////
 
@@ -596,7 +595,7 @@
 						<p>Ser una empresa líder en el mercado y reconocida por nuestros clientes, brindando siempre la mejor calidad y atención personalizada.</p>
 					</div>
 				</div> -->
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-6 col-sm-6"> 
 					<div class="fh5co-footer-widget top-level">
 						<h4 class="fh5co-footer-lead ">Contacto</h4>
 						<ul class="fh5co-list-check">
@@ -611,14 +610,21 @@
                              </li>
 						</ul>
 					</div>
-				</div>
-				<div class="col-md-6 col-sm-6">
 					<div class="fh5co-footer-widget top-level">
 						<h4 class="fh5co-footer-lead ">Síguenos en Redes Sociales</h4>
 							<div class="redes-sociales">
-								
 							</div>
 					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<h4 class="fh5co-footer-lead ">Formulario</h4>
+					<form action="envio.php" method="post">
+						<input type="text" name="Nombre" placeholder="Nombre" class="form-control" required/>
+						<input type="email" name="email" placeholder="Email" class="form-control" required/>
+						<input type="text" name="telefono" placeholder="Teléfono" class="form-control" required/>
+						<textarea class="form-control" name="mensaje" placeholder="Escriba aqui su mensaje" cols="30" rows="10"></textarea>
+						<input type="submit" value="Enviar" id="boton" required/>
+					</form>
 				</div>
 			</div>
 		</div>
