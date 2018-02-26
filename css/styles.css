@@ -390,3 +390,11 @@ button.close:focus{
 .mb-2{
 	margin-bottom: 2em !important;
 }
+
+.map-section{
+	height: 450px !important;
+}
+
+.padding-5{
+	padding-top: 5em;
+}

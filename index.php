@@ -85,7 +85,7 @@
 				<div class="navbar-header"> 
 				
 				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class></a>
+				<a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="" class></a>
 				</div>
 				<div id="fh5co-navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -586,7 +586,7 @@
 		
 		<!-- Products -->
 		<div class="fh5co-spacer fh5co-spacer-lg"></div>
-		<div class="fh5co-bg-section">
+		<div class="fh5co-bg-section map-section">
 			<div class="container-fluid">
 				<div class="row">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.5203975156886!2d-84.078863170799!3d9.927162999556336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTUnMzcuOCJOIDg0wrAwNCc0MS45Ilc!5e0!3m2!1sen!2scr!4v1518191418567" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -597,23 +597,14 @@
 	</div>
 
 	<footer id="fh5co-footer"> <!-- pie de pagina-->
-		<div class="container">
+		<div class="container-fluid">
 			<div class="clearfix padding-3">
-				<!-- <div class="col-md-4 col-sm-4">
-					<div class="fh5co-footer-widget top-level">
-						<h4 class="fh5co-footer-lead ">Misión</h4>
-                        <p> Ofrecer a nuestros clientes la producción, elaboración, diseño y acabados en papelería  publicitaria y general, asegurando  su satisfacción, por medio de un producto de calidad y entregado a tiempo.</p>
-					</div>
+				<div class="col-md-12 text-center">
+					<h2 class="fh5co-section-lead">Contacto</h2>
+					<h3 class="fh5co-section-sub-lead mb-2">Pongase en contacto con nosotros</h3>
 				</div>
-				<div class="col-md-4 col-sm-4">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="fh5co-footer-widget top-level">
-						<h4 class="fh5co-footer-lead">Visión</h4>
-						<p>Ser una empresa líder en el mercado y reconocida por nuestros clientes, brindando siempre la mejor calidad y atención personalizada.</p>
-					</div>
-				</div> -->
-				<div class="col-md-6 col-sm-6"> 
-					<div class="fh5co-footer-widget top-level">
-						<h4 class="fh5co-footer-lead ">Contacto</h4>
 						<ul class="fh5co-list-check">
 							<li><i class="fa fa-map-marker icon-blue" aria-hidden="true"></i>125 mts noroeste de la terminal de buses de Tracopa, Plaza Víquez, San José.</li>
 							<li><i class="fa fa-envelope icon-blue" aria-hidden="true"></i><a href="mailto: ventas@impresionlosreyes.com">ventas@impresionlosreyes.com</a></li>
@@ -628,12 +619,11 @@
 					</div>
 					<div class="fh5co-footer-widget top-level">
 						<h4 class="fh5co-footer-lead ">Síguenos en Redes Sociales</h4>
-							<div class="redes-sociales">
-							</div>
+						<div class="redes-sociales">
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<h4 class="fh5co-footer-lead ">Formulario</h4>
 					<form action="envio.php" method="post" class="text-center">
 						<input type="text" name="Nombre" placeholder="Nombre" class="form-control mb-2" required/>
 						<input type="email" name="email" placeholder="Email" class="form-control mb-2" required/>
