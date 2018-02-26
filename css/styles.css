@@ -274,3 +274,119 @@ button.close:focus{
 .carousel-indicators .active{
     background-color: #113b5f;
 }
+
+
+
+.alamahover{
+	background-image: url('../images/logos-clientes/alamoblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.alamahover:hover{
+	background-image: url('../images/logos-clientes/alamocolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.alfahover{
+	background-image: url('../images/logos-clientes/alfablanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.alfahover:hover{
+	background-image: url('../images/logos-clientes/alfacolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.climahover{
+	background-image: url('../images/logos-clientes/climablanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.climahover:hover{
+	background-image: url('../images/logos-clientes/climacolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.enterprise{
+	background-image: url('../images/logos-clientes/enterpriseblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.enterprise:hover{
+	background-image: url('../images/logos-clientes/enterprisecolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+.nationalhover{
+	background-image: url('../images/logos-clientes/nationalblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.nationalhover:hover{
+	background-image: url('../images/logos-clientes/nationalcolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.nutricarehover{
+	background-image: url('../images/logos-clientes/nutricareblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.nutricarehover:hover{
+	background-image: url('../images/logos-clientes/nutricarecolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.surhover{
+	background-image: url('../images/logos-clientes/surblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+.surhover:hover{
+	background-image: url('../images/logos-clientes/surcolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.anchover{
+	background-image: url('../images/logos-clientes/ancblanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+.anchover:hover{
+	background-image: url('../images/logos-clientes/anccolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.mb-2{
+	margin-bottom: 2em !important;
+}

@@ -379,15 +379,31 @@
 						<h2 class="fh5co-section-lead">Nuestros clientes</h2>
 						<h3 class="fh5co-section-sub-lead">Conozca nuestros clientes</h3>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="alamahover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="alfahover"></div>
+					</div>
 					<div class="visible-sm-block visible-xs-block clearfix"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/logo-1.png" alt="" class="img-responsive"></div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="climahover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="enterprise"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="nationalhover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="nutricarehover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="surhover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="anchover"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -618,12 +634,12 @@
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<h4 class="fh5co-footer-lead ">Formulario</h4>
-					<form action="envio.php" method="post">
-						<input type="text" name="Nombre" placeholder="Nombre" class="form-control" required/>
-						<input type="email" name="email" placeholder="Email" class="form-control" required/>
-						<input type="text" name="telefono" placeholder="Teléfono" class="form-control" required/>
-						<textarea class="form-control" name="mensaje" placeholder="Escriba aqui su mensaje" cols="30" rows="10"></textarea>
-						<input type="submit" value="Enviar" id="boton" required/>
+					<form action="envio.php" method="post" class="text-center">
+						<input type="text" name="Nombre" placeholder="Nombre" class="form-control mb-2" required/>
+						<input type="email" name="email" placeholder="Email" class="form-control mb-2" required/>
+						<input type="text" name="telefono" placeholder="Teléfono" class="form-control mb-2" required/>
+						<textarea class="form-control mb-2" name="mensaje" placeholder="Escriba aqui su mensaje" cols="30" rows="10"></textarea>
+						<input type="submit" value="Enviar" id="boton" class="btn btn-success" required/>
 					</form>
 				</div>
 			</div>
