@@ -353,7 +353,7 @@ $(document).ready(function(){
     		case "carpetas":
 	    				var div = 0;
 
-	    				while (div < 5) {
+	    				while (div < 4) {
 							var wrapper = $(".carousel-inner");
 							var item = $("<div></div>");
 							item.addClass('item text-center imagen-dinamica-' + div);
@@ -525,7 +525,7 @@ $(document).ready(function(){
 			break;
 			case "sobres":
 				var div = 0;
-				while (div < 2) {
+				while (div < 3) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
