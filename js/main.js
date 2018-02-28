@@ -451,16 +451,102 @@ $(document).ready(function(){
 					div++;
 				}
 			break;
-        	default:
-        		var wrapper = $(".carousel-inner");
-				var item = $("<div></div>");
-				item.addClass('item text-center imagen-dinamica');
-				var imagen = $("<img/>");
-				imagen.attr("src",("images/productos-demo/banner.jpg"));
-				item.append(imagen);
-				wrapper.append(item);
-				$(".carousel-inner .item:first").addClass('active');
-        	break;
+			case "hojas":
+				var div = 0;
+				while (div < 3) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/hoja-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					
+					var indicator =  $(".carousel-indicators");
+					var listIndicator = $("<li></li>");
+					listIndicator.attr('data-target',"#lightbox");
+					listIndicator.attr({
+						"data-target": '#lightbox',
+						"data-slide-to": div
+					});
+					indicator.append(listIndicator);
+					$(".carousel-indicators li:first").addClass('active');
+					div++;
+				}
+			break;
+			case "tarjetas":
+				var div = 0;
+				while (div < 1) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/tarjeta-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					
+					var indicator =  $(".carousel-indicators");
+					var listIndicator = $("<li></li>");
+					listIndicator.attr('data-target',"#lightbox");
+					listIndicator.attr({
+						"data-target": '#lightbox',
+						"data-slide-to": div
+					});
+					indicator.append(listIndicator);
+					$(".carousel-indicators li:first").addClass('active');
+					div++;
+				}
+			break;
+			case "brochures":
+				var div = 0;
+				while (div < 5) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/brochure-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					
+					var indicator =  $(".carousel-indicators");
+					var listIndicator = $("<li></li>");
+					listIndicator.attr('data-target',"#lightbox");
+					listIndicator.attr({
+						"data-target": '#lightbox',
+						"data-slide-to": div
+					});
+					indicator.append(listIndicator);
+					$(".carousel-indicators li:first").addClass('active');
+					div++;
+				}
+			break;
+			case "sobres":
+				var div = 0;
+				while (div < 2) {
+					var wrapper = $(".carousel-inner");
+					var item = $("<div></div>");
+					item.addClass('item text-center imagen-dinamica-' + div);
+					var imagen = $("<img/>");
+					imagen.attr("src",("images/productos-demo/sobre-" + div + ".png"));
+					item.append(imagen);
+					wrapper.append(item);
+					$(".carousel-inner .item:first").addClass('active');
+					
+					var indicator =  $(".carousel-indicators");
+					var listIndicator = $("<li></li>");
+					listIndicator.attr('data-target',"#lightbox");
+					listIndicator.attr({
+						"data-target": '#lightbox',
+						"data-slide-to": div
+					});
+					indicator.append(listIndicator);
+					$(".carousel-indicators li:first").addClass('active');
+					div++;
+				}
+			break;
         }
     	
     });

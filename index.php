@@ -508,7 +508,7 @@
 				<div class='pd-area col-md-3'>
 					<a href='#lightbox' data-toggle="modal" id="tarjetas" class="imagen-portafolio">
 						<div class="img-wrapper">
-							<img class='img-reponsive' src='images/img_small_1.jpg'/>
+							<img class='img-reponsive' src='images/productos-demo/tarjeta-0.png'/>
 						</div>
 					</a>
 					<div class='pd-des pd-sq-des text-center'>
@@ -518,7 +518,7 @@
 				<div class='pd-area col-md-3'>
 					<a href='#lightbox' data-toggle="modal" id="hojas" class="imagen-portafolio">
 						<div class="img-wrapper">
-							<img class='img-reponsive' src='images/img_small_1.jpg'/>
+							<img class='img-reponsive' src='images/productos-demo/hoja-0.png'/>
 						</div>
 					</a>
 					<div class='pd-des pd-sq-des text-center'>
@@ -528,7 +528,7 @@
 				<div class='pd-area col-md-3'>
 					<a href='#lightbox' data-toggle="modal" id="brochures" class="imagen-portafolio">
 						<div class="img-wrapper">
-							<img class='img-reponsive' src='images/img_small_1.jpg'/>
+							<img class='img-reponsive' src='images/productos-demo/brochure-0.png'/>
 						</div>
 					</a>
 					<div class='pd-des pd-sq-des text-center'>
@@ -536,9 +536,9 @@
 					</div>
 				</div>
 				<div class='pd-area col-md-3'>
-					<a href='#lightbox' data-toggle="modal" id="brochures" class="imagen-portafolio">
+					<a href='#lightbox' data-toggle="modal" id="sobres" class="imagen-portafolio">
 						<div class="img-wrapper">
-							<img class='img-reponsive' src='images/img_small_1.jpg'/>
+							<img class='img-reponsive' src='images/productos-demo/sobre-0.png'/>
 						</div>
 					</a>
 					<div class='pd-des pd-sq-des text-center'>
