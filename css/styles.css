@@ -387,6 +387,27 @@ button.close:focus{
 	transition: all 1s;
 }
 
+.pizza{
+	background-image: url('../images/logos-clientes/pizzacolor.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+.pizza:hover{
+	background-image: url('../images/logos-clientes/pizzacolor.png');
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.purdy{
+	background-image: url('../images/logos-clientes/purdycolor.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
 .mb-2{
 	margin-bottom: 2em !important;
 }

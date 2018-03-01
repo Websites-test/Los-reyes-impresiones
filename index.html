@@ -404,6 +404,12 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
 						<div class="anchover"></div>
 					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="pizza"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div class="purdy"></div>
+					</div>
 				</div>
 			</div>
 		</div>
