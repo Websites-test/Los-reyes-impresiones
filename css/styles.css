@@ -387,32 +387,6 @@ button.close:focus{
 	transition: all 1s;
 }
 
-.pizzahover{
-	background-image: url('../images/logos-clientes/pizzablanco.png');
-	width: 150px;
-	height: 69px;
-	display: block;
-	transition: all 2s;
-}
-.pizzahover:hover{
-	background-image: url('../images/logos-clientes/pizzacolor.png');
-	cursor: pointer;
-	transition: all 1s;
-}
-
-.purdyhover{
-	background-image: url('../images/logos-clientes/purdyblanco.png');
-	width: 150px;
-	height: 69px;
-	display: block;
-	transition: all 2s;
-}
-
-.purdyhover:hover{
-	background-image: url('../images/logos-clientes/purdycolor.png');
-	cursor: pointer;
-	transition: all 1s;
-}
 
 .mb-2{
 	margin-bottom: 2em !important;
