@@ -276,7 +276,6 @@ button.close:focus{
 }
 
 
-
 .alamahover{
 	background-image: url('../images/logos-clientes/alamoblanco.png');
 	width: 150px;
@@ -387,6 +386,13 @@ button.close:focus{
 	transition: all 1s;
 }
 
+.pizza-hut{
+	background-image: url('../images/logos-clientes/pizza-hut-blanco.png');
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
 
 .mb-2{
 	margin-bottom: 2em !important;
