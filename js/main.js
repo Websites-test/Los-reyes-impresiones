@@ -260,7 +260,7 @@ $(document).ready(function(){
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/afiche-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/afiches/afiche-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -279,12 +279,12 @@ $(document).ready(function(){
         	break;
         	case "catalogos":
 				var div = 0;
-				while (div < 8) {
+				while (div < 10) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/catalogo-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/catalogos/catalogo-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -303,12 +303,12 @@ $(document).ready(function(){
 			break;
 			case "empresas":
 				var div = 0;
-				while (div < 1) {
+				while (div < 7) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/empresa-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/empresa/empresa-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -327,12 +327,12 @@ $(document).ready(function(){
 			break;
     		case "etiquetas":
 				var div = 0;
-				while (div < 3) {
+				while (div < 18) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/etiqueta-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/etiquetas/etiqueta-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -353,12 +353,12 @@ $(document).ready(function(){
     		case "carpetas":
 	    				var div = 0;
 
-	    				while (div < 4) {
+	    				while (div < 6) {
 							var wrapper = $(".carousel-inner");
 							var item = $("<div></div>");
 							item.addClass('item text-center imagen-dinamica-' + div);
 							var imagen = $("<img/>");
-							imagen.attr("src",("images/productos-demo/folder-" + div + ".png"));
+							imagen.attr("src",("images/productos-demo/folders/folder-" + div + ".png"));
 							item.append(imagen);
 							wrapper.append(item);
 							$(".carousel-inner .item:first").addClass('active');
@@ -379,12 +379,12 @@ $(document).ready(function(){
 	    	case "pop":
 				var div = 0;
 
-				while (div < 1) {
+				while (div < 3) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/pop-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/pop/pop-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -404,12 +404,12 @@ $(document).ready(function(){
 			case "promociones":
 				var div = 0;
 
-				while (div < 6) {
+				while (div < 8) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/promocional-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/promocional/promocional-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -429,12 +429,12 @@ $(document).ready(function(){
 			case "volantes":
 				var div = 0;
 
-				while (div < 1) {
+				while (div < 6) {
 					var wrapper = $(".carousel-inner");
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/volante-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/volante/volante-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -458,7 +458,7 @@ $(document).ready(function(){
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/hoja-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/hojas/hoja-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -482,7 +482,7 @@ $(document).ready(function(){
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/tarjeta-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/tarjeta/tarjeta-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -506,7 +506,7 @@ $(document).ready(function(){
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/brochure-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/brochure/brochure-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
@@ -530,7 +530,7 @@ $(document).ready(function(){
 					var item = $("<div></div>");
 					item.addClass('item text-center imagen-dinamica-' + div);
 					var imagen = $("<img/>");
-					imagen.attr("src",("images/productos-demo/sobre-" + div + ".png"));
+					imagen.attr("src",("images/productos-demo/sobre/sobre-" + div + ".png"));
 					item.append(imagen);
 					wrapper.append(item);
 					$(".carousel-inner .item:first").addClass('active');
