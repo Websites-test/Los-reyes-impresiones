@@ -380,6 +380,13 @@
 						<h3 class="fh5co-section-sub-lead">Conozca nuestros clientes</h3>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div id="pizza-hut">
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+						<div id="purdyhover"></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
 						<div class="alamahover"></div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
@@ -403,12 +410,6 @@
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
 						<div class="anchover"></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
-						<div class="pizzahover"></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
-						<div class="purdyhover"></div>
 					</div>
 				</div>
 			</div>
