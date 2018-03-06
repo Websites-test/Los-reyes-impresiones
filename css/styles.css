@@ -386,8 +386,19 @@ button.close:focus{
 	transition: all 1s;
 }
 
-.pizza-hut{
-	background-image: url('../images/logos-clientes/pizza-hut-blanco.png');
+#pizza-hut img{
+	width: 150px;
+	height: 69px;
+	display: block;
+	transition: all 2s;
+}
+
+#pizza-hut img:hover{
+	cursor: pointer;
+	transition: all 1s;
+}
+
+#purdyhover img{
 	width: 150px;
 	height: 69px;
 	display: block;

@@ -136,7 +136,6 @@
 		}
 	};
 
-
 	// Waypoints 
 	var featureIconsWayPoint = function() {
 		if ( $('#fh5co-features').length > 0 ) {
@@ -599,4 +598,39 @@ jQuery(document).ready(function($) {
 		        });
 		    };
 		}(jQuery));
+});
+
+function insert(){
+    var src = document.getElementById("pizza-hut");
+    var img = document.createElement("img");
+       	img.src = "images/logos-clientes/pizza-hut-blanco.png";
+        src.appendChild(img);
+
+
+
+        var src1 = document.getElementById("purdyhover");
+    	var img1 = document.createElement("img");
+       	img1.src = "images/logos-clientes/purdy-motor-blanco.png";
+        src1.appendChild(img1);
+}
+insert();
+
+
+
+$(document).ready(function() {
+    $('#pizza-hut img').hover(function(){
+       $("#pizza-hut img").attr("src","images/logos-clientes/pizza-hut-color.png");
+    },function(){
+       $("#pizza-hut img").attr("src","images/logos-clientes/pizza-hut-blanco.png");
+    });
+
+
+    $('#purdyhover img').hover(function(){
+       $("#purdyhover img").attr("src","images/logos-clientes/purdy-motor-color.png");
+    },function(){
+       $("#purdyhover img").attr("src","images/logos-clientes/purdy-motor-blanco.png");
+    });
+
+
+
 });
