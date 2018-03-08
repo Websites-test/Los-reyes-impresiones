@@ -608,7 +608,7 @@
 			<div class="clearfix padding-3">
 				<div class="col-md-12 text-center">
 					<h2 class="fh5co-section-lead">Contacto</h2>
-					<h3 class="fh5co-section-sub-lead mb-2">Pongase en contacto con nosotros</h3>
+					<h3 class="fh5co-section-sub-lead mb-2">Póngase en contacto con nosotros</h3>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="fh5co-footer-widget top-level">
