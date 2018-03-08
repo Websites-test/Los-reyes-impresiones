@@ -405,7 +405,7 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
 						<div class="nutricarehover"></div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
+					<div class="col-md-offset-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
 						<div class="surhover"></div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate mb-2">
