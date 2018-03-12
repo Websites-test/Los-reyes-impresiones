@@ -636,7 +636,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('#formulario').submit(function() {
-		var url = "../envio.php";
+		var url = "envio.php";
 
 
 		$.ajax({
