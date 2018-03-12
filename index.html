@@ -632,12 +632,13 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<form action="envio.php" method="post" class="text-center">
-						<input type="text" name="Nombre" placeholder="Nombre" class="form-control mb-2" required/>
+					<form action="" method="post" class="text-center" id="formulario">
+						<input type="text" name="nombre" placeholder="Nombre" class="form-control mb-2" required/>
 						<input type="email" name="email" placeholder="Email" class="form-control mb-2" required/>
 						<input type="text" name="telefono" placeholder="Teléfono" class="form-control mb-2" required/>
 						<textarea class="form-control mb-2" name="mensaje" placeholder="Escriba aqui su mensaje" cols="30" rows="10"></textarea>
-						<input type="submit" value="Enviar" id="boton" class="btn btn-success" required/>
+						<input type="submit" value="Enviar" name="enviar" id="boton" class="btn btn-success" required/>
+						<div id = 'resultado'></div>
 					</form>
 				</div>
 			</div>
