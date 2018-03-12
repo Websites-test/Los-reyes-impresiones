@@ -631,7 +631,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<form action="envio.php" method="post" class="text-center">
+					<form action="" method="post" class="text-center">
 						<input type="text" name="Nombre" placeholder="Nombre" class="form-control mb-2" required/>
 						<input type="email" name="email" placeholder="Email" class="form-control mb-2" required/>
 						<input type="text" name="telefono" placeholder="Teléfono" class="form-control mb-2" required/>

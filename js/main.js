@@ -630,7 +630,24 @@ $(document).ready(function() {
     },function(){
        $("#purdyhover img").attr("src","images/logos-clientes/purdy-motor-blanco.png");
     });
+});
 
 
 
+$(document).ready(function() {
+	$('#formulario').submit(function() {
+		var url = "../envio.php";
+
+
+		$.ajax({
+			type:"POST",
+			url: url,
+			data: $("#formulario").serialize(),
+			succes: function(data)
+			{
+				$("#resultado").html(data);
+			}
+		});
+		return false;
+	});
 });
